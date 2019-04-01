@@ -15,13 +15,13 @@ https://github.com/ProgramFOX/Chess.NET
 
 Zentropy improvements and feature additions:
 
-an updated and expanded user interface
-new chess piece sets
-chess engine matches
-engine logo display (100 x 50)
-configurable draw and resign adjudication
-FEN opening book usage and creation (from PGN file)
-game save to PGN file
-bug fixes
+an updated and expanded user interface,
+new chess piece sets,
+chess engine matches,
+engine logo display (100 x 50),
+configurable draw and resign adjudication,
+FEN opening book usage and creation (from PGN file),
+game save to PGN file,
+bug fixes,
 code improvements
 
