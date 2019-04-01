@@ -1,2 +1,0 @@
-setoption name Threads value 6
-setoption name Hash value 1024
