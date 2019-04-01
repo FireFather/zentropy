@@ -1,0 +1,3 @@
+setoption name Threads value 6
+setoption name Hash value 1024
+setoption name SyzygyPath value "d:\syzygy"

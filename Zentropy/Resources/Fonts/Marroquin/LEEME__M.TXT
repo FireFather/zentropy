@@ -1,0 +1,89 @@
+                     Fuente TrueType CHESS MARROQUIN
+                        Update: Agosto 8 de 1998.
+
+   Esta fuente la diseค para crear diagramas de problemas (mates) de ajedrez
+para niคos.  Fue elaborada en el "Colegio  La Salle  de  San  Cristขbal",  se
+localiza en el Estado de Chiapas, en el sur de Mxico. Utilic Corel Draw 3.0
+para crear las figuritas y Corel Draw 7.0 para  exportarlas  al  formato TTF.
+Puedes usar la fuente libremente es freeware.  Si quieres ayudarnos, envกanos
+alguna otra fuente para crear diagramas de ajedrez  (las coleccionamos).  Tus 
+comentarios y sugerencias ser n bienvenidos, envกalos  a  cualquiera  de  las
+direcciones abajo mencionadas.
+
+Los archivos en MARRO_TT.ZIP son:
+          LEEME__M.TXT     Este archivo.
+          README_M.TXT     Este texto en ingls.
+          MARRFONT.TTF     Fuente CHESS MARROQUIN - Ver. 2.0
+          CHESMARR.DOC     Ejemplo y mapa del teclado.
+
+   La fuente se instala en  Windows,  como  cualquier  otra  fuente  TTF.  Te
+servir  para hacer diagramas de ajedrez y notaciขn en figuritas en  cualquier
+programa que corra bajo Windows.  El archivo CHESMARR.DOC que acompaคa a este
+archivo est  hecho en  Word 6.0, contiene  una  muestra  de  la  creaciขn  de
+diagramas en un procesador de textos y un mapa del teclado de esta fuente. No
+podr s ver bien los caracteres hasta que instales la  fuente  CHESS MARROQUIN
+en tu computadora.  La distribuciขn de las figuritas en el  teclado  es  como
+sigue:
+
+MARCOS:
+                                       SIMPLE     DOBLE      EXTRA *
+     Esquina superior izquierda          1      !  ข  033    a - A
+     Borde superior                      2      "     034      
+     Esquina superior derecha            3      #     035    s - S
+     Borde izquierdo                     4      $     036      
+     Borde derecho                       5      %     037     
+     Esquina inferior izquierda          7      /     047    d - D
+     Borde inferior                      8      (     040      
+     Esquina inferior derecha            9      )     041    f - F
+
+PIEZAS:
+                                    FONDO BLANCO          FONDO NEGRO
+     Casillas                       [espacio] ข  *  042        +  043
+     Peขn blanco                         p                     P
+     Peขn negro                          o                     O
+     Caballo blanco                      n                     N
+     Caballo negro                       m                     M
+     Alfil blanco                        b                     B
+     Alfil negro                         v                     V
+     Torre blanca                        r                     R
+     Torre negra                         t                     T
+     Dama blanca                         q                     Q
+     Dama negra                          w                     W
+     Rey blanco                          k                     K
+     Rey negro                           l                     L
+
+     * Las teclas en EXTRA tienen esquinas curvas para los bordes. Las teclas
+       (x), (X), (.) y (:) contienen sกmbolos auxiliares para indicar algunos
+       movimientos individuales de las piezas.
+
+NOTAS: Tambin encontrar s bordes con las coordenadas del tablero.  Para  los
+       bordes sencillos teclea los cขdigos ASCII del 0192 al 0207 y  para los
+       bordes dobles del 0224 al 0239.  No olvides pulsar [Alt] y el CERO que
+       acompaคa a cada cขdigo, para generar estos caracteres.
+
+       Las piezas para notaciขn en figuritas se obtienen con los cขdigos  del
+       0162 al 0167.
+
+       Te recomiendo que imprimas el archivo .DOC para ver el mapa completo.
+                               *************
+
+Muchกsimas gracias a:
+       ERIC BENTZEN
+       http://members.xoom.com/ebhkp/homeeng.htm
+
+       HANS BODLAENDER
+       http://www.cs.ruu.nl/~hansb/d.chessvar/d.font/index.html
+
+       STEPHANE MOUCHEL
+       http://www.europe-echecs.com/
+
+por el espacio en sus websites para la distribuciขn de esta fuente.
+
+ษออออออออออออออออออออออออออออออออออออหออออออออออออออออออออออออออออออออออออออป 
+ CIRCULO LASALLISTA DE AJEDREZ       บ ARMANDO HERNANDEZ MARROQUIN
+ Apartado Postal 168                 บ
+ San Cristขbal de Las Casas, Chiapas.บ mquin@sancristobal.podernet.com.mx
+ 29200 MEXICO                        บ
+                                     บ Lanzamiento: Septiembre 10 de 1997.
+ lasalle@mundomaya.com.mx            บ Actualizaciขn: Agosto 8 de 1998.
+ศออออออออออออออออออออออออออออออออออออสออออออออออออออออออออออออออออออออออออออผ

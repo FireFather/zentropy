@@ -1,0 +1,5 @@
+known bugs:
+tbhits not functioning
+multi-pv data duplication
+multi-pv arrows don't disappear upon reset
+
