@@ -1,6 +1,6 @@
 # Zentropy
 
-A C# Windows UCI chess engine GUI....
+A Windows UCI chess engine GUI....
 based on and developed from
 
 BerldChess
@@ -22,6 +22,7 @@ engine logo display (100 x 50),
 configurable draw and resign adjudication,
 FEN opening book usage and creation (from PGN file),
 game save to PGN file,
+automatic LOS calculation,
 bug fixes,
-code improvements
-
+code improvements,
+etc.
