@@ -1,6 +1,6 @@
 # Zentropy
 
-A Windows UCI chess engine GUI....
+A UCI chess engine GUI for Windows...
 based on and developed from
 
 BerldChess
@@ -13,7 +13,7 @@ and
 Chess.NET
 https://github.com/ProgramFOX/Chess.NET
 
-Zentropy improvements and feature additions:
+Zentropy recent changes and feature additions:
 
 an updated and expanded user interface,
 new chess piece sets,
