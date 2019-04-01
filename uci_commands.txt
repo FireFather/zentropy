@@ -1,6 +1,9 @@
+To use UCI commands (like those below)...
+simply paste them into the UCI options text box
+(under Engine - Management menu selection)
+and click on "Apply" button.
+
 setoption name Threads value 6
 setoption name Hash value 1024
 setoption name SyzygyPath value "d:\syzygy"
 
-If desired, paste UCI commands (like those above) into the UCI options dialog box
-(under Engine - Management menu selection)
