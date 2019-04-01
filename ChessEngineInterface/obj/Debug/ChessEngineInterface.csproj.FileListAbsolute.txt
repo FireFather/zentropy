@@ -1,0 +1,10 @@
+E:\BerldChess\Source\ChessEngineInterface\bin\Debug\ChessEngineInterface.dll
+E:\BerldChess\Source\ChessEngineInterface\bin\Debug\ChessEngineInterface.pdb
+E:\BerldChess\Source\ChessEngineInterface\obj\Debug\ChessEngineInterface.csproj.CoreCompileInputs.cache
+E:\BerldChess\Source\ChessEngineInterface\obj\Debug\ChessEngineInterface.dll
+E:\BerldChess\Source\ChessEngineInterface\obj\Debug\ChessEngineInterface.pdb
+E:\BerldChess\ChessEngineInterface\bin\Debug\ChessEngineInterface.dll
+E:\BerldChess\ChessEngineInterface\bin\Debug\ChessEngineInterface.pdb
+E:\BerldChess\ChessEngineInterface\obj\Debug\ChessEngineInterface.csproj.CoreCompileInputs.cache
+E:\BerldChess\ChessEngineInterface\obj\Debug\ChessEngineInterface.dll
+E:\BerldChess\ChessEngineInterface\obj\Debug\ChessEngineInterface.pdb

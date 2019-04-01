@@ -1,0 +1,114 @@
+                     Fuente TrueType: CHESS ADVENTURER
+  
+  Las figuritas de esta fuente fueron adaptadas de las  im genes  encontradas
+en los diagramas de varios libros publicados alrededor de los 70's del  siglo
+veinte.  Esta fuente se distingue,  como  muchas  otras,  por la  figura  que
+representa al alfil. Las piezas restantes son las tradicionales.
+
+  Las figuras fueron creadas en Corel Draw y despu‚s rexportadas a TTF con el
+Fontographer 4.1.  Hice la fuente en el  "Colegio La Salle de San Crist¢bal",
+ubicado en las agradables monta¤as del Mundo Maya, en el sureste  de  M‚xico.
+La fuente es gratuita (freeware), espero que sea £til a todos los amigos  del 
+ajedrez.  Si quieres ayudarnos a incrementar nuestra  colecci¢n  de  fuentes,
+puedes enviarnos alguna otra fuente para crear diagramas de ajedrez o algunas
+im genes de fuentes aparecidas en libros viejos de ajedrez.  Tus  comentarios 
+y sugerencias siempre ser n bien recibidos;  env¡alos  a  cualquiera  de  las
+direcciones que aparecen abajo.
+
+Los archivos en AVEN__TT.ZIP son:
+          LEEME__E.TXT     Este archivo.
+          README_E.TXT     Este texto en ingl‚s.
+          AVENFONT.TTF     Fuente CHESS ADVENTURER - Ver. 1.0
+          CHESAVEN.DOC     Ejemplos y mapa del teclado.
+
+  La fuente se instala en Windows, como cualquier otra fuente TTF. Te servir  
+para hacer diagramas de ajedrez normales,  en  colores  y  para  notaci¢n  en
+figuritas con los procesadores de textos que corran bajo Windows.  El archivo
+CHESAVEN.DOC que acompa¤a a este archivo est  hecho en Word 6.0, contiene dos
+muestras de diagramas hechos en un procesador de textos y un mapa del teclado
+de esta fuente.  No ver s bien estos caracteres hasta que instales la  fuente
+'Chess Adventurer' en tu computadora. La distribuci¢n de las figuritas en  el
+teclado es igual que el de la fuente CHESS MARROQUIN, como aqu¡ se describe:
+
+MARCOS:
+                                       SIMPLE     DOBLE      EXTRA *
+     Esquina superior izquierda          1      !  ¢  033    a - A
+     Borde superior                      2      "     034      
+     Esquina superior derecha            3      #     035    s - S
+     Borde izquierdo                     4      $     036      
+     Borde derecho                       5      %     037     
+     Esquina inferior izquierda          7      /     047    d - D
+     Borde inferior                      8      (     040      
+     Esquina inferior derecha            9      )     041    f - F
+
+PIEZAS:
+                                    FONDO BLANCO          FONDO NEGRO
+     Casillas                       [espacio] ¢  *  042        +  043
+     Pe¢n blanco                         p                     P
+     Pe¢n negro                          o                     O
+     Caballo blanco                      n                     N
+     Caballo negro                       m                     M
+     Alfil blanco                        b                     B
+     Alfil negro                         v                     V
+     Torre blanca                        r                     R
+     Torre negra                         t                     T
+     Dama blanca                         q                     Q
+     Dama negra                          w                     W
+     Rey blanco                          k                     K
+     Rey negro                           l                     L
+
+MASCARILLAS:
+                                     CARACTER     ASCII 
+     Casilla oscura                      <         060   (de longitud cero)
+     Casilla oscura                      >         062   (de longitud normal)
+     Pe¢n                                [         091
+     Caballo                             \         092
+     Alfil                               ]         093
+     Torre                               ^         094
+     Dama                                _         095
+     Rey                                 `         096
+
+
+     * Las teclas en EXTRA tienen esquinas curvas para los bordes. Las teclas
+       (x), (X), (.) y (:) contienen s¡mbolos auxiliares para indicar algunos
+       movimientos individuales de las piezas.
+
+NOTAS: Tambi‚n encontrar s bordes con las coordenadas del tablero.  Para  los
+       bordes sencillos teclea los c¢digos ASCII del 0192 al 0207 y  para los
+       bordes dobles del 0224 al 0239.  No olvides pulsar [Alt] y el CERO que
+       acompa¤a a cada c¢digo, para generar estos caracteres.
+
+       Despu‚s de escribir una casilla de longitud  cero  debes  escribir  el 
+       car cter de la pieza correspondiente  (en fondo claro).  DIAGRAMAS  DE
+       COLOR:  1) seleccionar color de la mascarilla, 2) escribir mascarilla,
+       3) seleccionar color de la pieza y 4) escribir la pieza.
+
+       Las piezas para notaci¢n en figuritas se obtienen con los c¢digos  del
+       0162 al 0167.
+
+       Te recomiendo que imprimas el archivo .DOC para ver el mapa completo.
+                               *************
+
+Much¡simas gracias a:
+       ERIC BENTZEN
+       http://www.enpassant.dk/chess/homeeng.htm
+
+       HANS BODLAENDER
+       http://www.chessvariants.com/d.font/index.html
+
+       MANFRED ROSENBOOM
+       http://www.rebel.nl/epd2diag.htm
+
+       ARMANDO ACEVEDO
+       http://members.tripod.com/aacevedo/
+
+por el espacio en sus websites para la distribuci¢n de esta fuente.
+
+ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ» 
+ CIRCULO LASALLISTA DE AJEDREZ       º ARMANDO HERNANDEZ MARROQUIN
+ Apartado Postal 168                 º
+ San Crist¢bal de Las Casas, Chiapas.º mquin@sancristobal.podernet.com.mx
+ 29200 MEXICO                        º
+                                     º
+ mquin@mundomaya.com.mx              º Lanzamiento: Febrero 5 del 2000.
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼

@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BB7220CA-E2E2-4C87-8D5B-B34EB1142524}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Zentropy</RootNamespace>
+    <AssemblyName>Zentropy</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.5.84.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Cache\Debug\</IntermediateOutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release\</OutputPath>
+    <IntermediateOutputPath>Cache\Release\</IntermediateOutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Icons\zentropy.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Zentropy.EntryPoint</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>5FC0C64FB93A6754CA605B333AEAF762780DED2C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Zentropy_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Source\Extensions.cs" />
+    <Compile Include="Source\Model\ChessFont.cs" />
+    <Compile Include="Source\Model\ChessPly.cs" />
+    <Compile Include="Source\Model\EngineList.cs" />
+    <Compile Include="Source\Model\EngineSetting.cs" />
+    <Compile Include="Source\Model\Recognizer.cs" />
+    <Compile Include="Source\Model\SerializedInfo.cs" />
+    <Compile Include="Source\ViewModel\FormMainViewModel.cs" />
+    <Compile Include="Source\View\FormBookOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\View\FormBookOptions.Designer.cs">
+      <DependentUpon>FormBookOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\View\FormGameOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\View\FormGameOptions.Designer.cs">
+      <DependentUpon>FormGameOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\View\FormMatchOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\View\FormMatchOptions.Designer.cs">
+      <DependentUpon>FormMatchOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\View\FormAboutZentropy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\View\FormAboutZentropy.Designer.cs">
+      <DependentUpon>FormAboutZentropy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\View\FormPgnOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\View\FormPgnOptions.Designer.cs">
+      <DependentUpon>FormPgnOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\View\MoveArrow.cs" />
+    <Compile Include="Source\View\MoveArrowDrawInfo.cs" />
+    <Compile Include="Source\View\ChessPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Source\View\PieceMovedEventArgs.cs" />
+    <Compile Include="Source\View\PieceMovedEventHandler.cs" />
+    <Compile Include="Source\View\FormEngineManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\View\FormEngineManagement.Designer.cs">
+      <DependentUpon>FormEngineManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\View\FormTimeControlDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\View\FormTimeControlDialog.Designer.cs">
+      <DependentUpon>FormTimeControlDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\View\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\View\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\EntryPoint.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Source\View\FormSquareColor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\View\FormSquareColor.Designer.cs">
+      <DependentUpon>FormSquareColor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\Model\Level.cs" />
+    <Compile Include="Source\Model\LevelType.cs" />
+    <Compile Include="Source\View\PieceImageProvider.cs" />
+    <Compile Include="Source\View\FormBoardSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\View\FormBoardSetting.Designer.cs">
+      <DependentUpon>FormBoardSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\View\FormPieceSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\View\FormPieceSettings.Designer.cs">
+      <DependentUpon>FormPieceSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\View\FormPromotion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\View\FormPromotion.Designer.cs">
+      <DependentUpon>FormPromotion.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Source\View\ChessPanel.resx">
+      <DependentUpon>ChessPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\View\FormBookOptions.resx">
+      <DependentUpon>FormBookOptions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\View\FormGameOptions.resx">
+      <DependentUpon>FormGameOptions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\View\FormMatchOptions.resx">
+      <DependentUpon>FormMatchOptions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\View\FormAboutZentropy.resx">
+      <DependentUpon>FormAboutZentropy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\View\FormPgnOptions.resx">
+      <DependentUpon>FormPgnOptions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\View\FormEngineManagement.resx">
+      <DependentUpon>FormEngineManagement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\View\FormTimeControlDialog.resx">
+      <DependentUpon>FormTimeControlDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\View\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\View\FormSquareColor.resx">
+      <DependentUpon>FormSquareColor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\View\FormBoardSetting.resx">
+      <DependentUpon>FormBoardSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\View\FormPieceSettings.resx">
+      <DependentUpon>FormPieceSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\View\FormPromotion.resx">
+      <DependentUpon>FormPromotion.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChessDotNet\ChessDotNet\ChessDotNet.csproj">
+      <Project>{f089f32e-0218-4f80-a65d-484f6eb806bd}</Project>
+      <Name>ChessDotNet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChessEngineInterface\ChessEngineInterface.csproj">
+      <Project>{44e30db3-db05-4e3b-a74d-1caf8acaa444}</Project>
+      <Name>ChessEngineInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\zentropy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FodyWeavers.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Images\Arrows\back.png" />
+    <Content Include="Resources\Images\Arrows\button.png" />
+    <Content Include="Resources\Images\Arrows\end.png" />
+    <Content Include="Resources\Images\Arrows\forward.png" />
+    <Content Include="Resources\Images\Arrows\start.png" />
+    <Content Include="Resources\Images\black.bmp" />
+    <Content Include="Resources\Images\Pieces\AlphaChessPieces.png" />
+    <Content Include="Resources\Images\Pieces\BurnettChessPieces.png" />
+    <Content Include="Resources\Images\Pieces\IvoryChessPieces.png" />
+    <Content Include="Resources\Images\Pieces\MeridaChessPieces.png" />
+    <Content Include="Resources\Images\Pieces\MonkChessPieces.png" />
+    <Content Include="Resources\Images\white.bmp" />
+    <Content Include="Resources\Images\logo.bmp" />
+    <Content Include="Resources\Sounds\Capture.wav" />
+    <Content Include="Resources\Sounds\Castling.wav" />
+    <Content Include="Resources\Sounds\Check.wav" />
+    <Content Include="Resources\Sounds\Move.wav" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

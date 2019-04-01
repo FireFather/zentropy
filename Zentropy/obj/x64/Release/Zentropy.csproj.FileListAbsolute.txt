@@ -1,0 +1,62 @@
+E:\Zentropy dev\Zentropy 120\Zentropy\bin\x64\Release\Zentropy.exe.config
+E:\Zentropy dev\Zentropy 120\Zentropy\bin\x64\Release\Zentropy.exe.manifest
+E:\Zentropy dev\Zentropy 120\Zentropy\bin\x64\Release\Zentropy.application
+E:\Zentropy dev\Zentropy 120\Zentropy\bin\x64\Release\Zentropy.exe
+E:\Zentropy dev\Zentropy 120\Zentropy\bin\x64\Release\Zentropy.pdb
+E:\Zentropy dev\Zentropy 120\Zentropy\bin\x64\Release\ChessDotNet.dll
+E:\Zentropy dev\Zentropy 120\Zentropy\bin\x64\Release\ChessEngineInterface.dll
+E:\Zentropy dev\Zentropy 120\Zentropy\bin\x64\Release\WindowsInput.dll
+E:\Zentropy dev\Zentropy 120\Zentropy\bin\x64\Release\ChessDotNet.pdb
+E:\Zentropy dev\Zentropy 120\Zentropy\bin\x64\Release\ChessEngineInterface.pdb
+E:\Zentropy dev\Zentropy 120\Zentropy\bin\x64\Release\WindowsInput.xml
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.csprojAssemblyReference.cache
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.View.ChessPanel.resources
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.View.FormBookOptions.resources
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.View.FormMatchOptions.resources
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.View.FormPgnOptions.resources
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.View.FormEngineManagement.resources
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.View.FormTimeControlDialog.resources
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.View.FormMain.resources
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.Properties.Resources.resources
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.View.FormSquareColor.resources
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.View.FormBoardSetting.resources
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.View.FormPieceSettings.resources
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.View.FormPromotion.resources
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.csproj.GenerateResource.cache
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.csproj.CoreCompileInputs.cache
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.exe.manifest
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.application
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.csproj.CopyComplete
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.exe
+E:\Zentropy dev\Zentropy 120\Zentropy\obj\x64\Release\Zentropy.pdb
+E:\Zentropy\Zentropy\bin\x64\Release\Zentropy.exe.config
+E:\Zentropy\Zentropy\bin\x64\Release\Zentropy.exe.manifest
+E:\Zentropy\Zentropy\bin\x64\Release\Zentropy.application
+E:\Zentropy\Zentropy\bin\x64\Release\Zentropy.exe
+E:\Zentropy\Zentropy\bin\x64\Release\Zentropy.pdb
+E:\Zentropy\Zentropy\bin\x64\Release\ChessDotNet.dll
+E:\Zentropy\Zentropy\bin\x64\Release\ChessEngineInterface.dll
+E:\Zentropy\Zentropy\bin\x64\Release\ChessDotNet.pdb
+E:\Zentropy\Zentropy\bin\x64\Release\ChessEngineInterface.pdb
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.csprojAssemblyReference.cache
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.View.ChessPanel.resources
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.View.FormBookOptions.resources
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.View.FormGameOptions.resources
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.View.FormMatchOptions.resources
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.View.FormAboutZentropy.resources
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.View.FormPgnOptions.resources
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.View.FormEngineManagement.resources
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.View.FormTimeControlDialog.resources
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.View.FormMain.resources
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.Properties.Resources.resources
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.View.FormSquareColor.resources
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.View.FormBoardSetting.resources
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.View.FormPieceSettings.resources
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.View.FormPromotion.resources
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.csproj.GenerateResource.cache
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.csproj.CoreCompileInputs.cache
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.exe.manifest
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.application
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.csproj.CopyComplete
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.exe
+E:\Zentropy\Zentropy\obj\x64\Release\Zentropy.pdb
