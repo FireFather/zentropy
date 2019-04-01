@@ -38,6 +38,7 @@ namespace Zentropy.View
 
         #region Other Methods
         private void LoadInfo()
+
         {
         }
         #endregion

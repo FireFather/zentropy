@@ -17,7 +17,6 @@ E:\Zentropy dev\Zentropy 120\ChessEngineInterface\obj\x64\Release\ChessEngineInt
 E:\Zentropy dev\Zentropy 120\ChessEngineInterface\obj\x64\Release\ChessEngineInterface.pdb
 E:\Zentropy\ChessEngineInterface\bin\x64\Release\ChessEngineInterface.dll
 E:\Zentropy\ChessEngineInterface\bin\x64\Release\ChessEngineInterface.pdb
-E:\Zentropy\ChessEngineInterface\obj\x64\Release\ChessEngineInterface.csprojAssemblyReference.cache
 E:\Zentropy\ChessEngineInterface\obj\x64\Release\ChessEngineInterface.csproj.CoreCompileInputs.cache
 E:\Zentropy\ChessEngineInterface\obj\x64\Release\ChessEngineInterface.dll
 E:\Zentropy\ChessEngineInterface\obj\x64\Release\ChessEngineInterface.pdb

@@ -4,7 +4,7 @@
   <description asmv2:iconFile="Resources\Icons\zentropy.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Zentropy" version="1.5.7030.33634" language="neutral" processorArchitecture="amd64" />
+    <assemblyIdentity name="Zentropy" version="1.5.7030.37049" language="neutral" processorArchitecture="amd64" />
     <commandLine file="Zentropy.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>99FuXSB8msWWK0p5MWSW864sjCarHd5eudnZEB+ONW0=</dsig:DigestValue>
+        <dsig:DigestValue>lnlm1IcUQD93UgA02qRgZ0w/FaEI/1Eu+SEUvyjvz08=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,19 +62,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7Yoclugd0c3iz47/omJQBXj+Q2ZPsaS/6trJ5/AjRk0=</dsig:DigestValue>
+        <dsig:DigestValue>2GItXg+fCzeqfZb3CBRIJqepxRaIxosYCzCy08mgObc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Zentropy.exe" size="1738752">
-      <assemblyIdentity name="Zentropy" version="1.5.7030.33634" language="neutral" processorArchitecture="amd64" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Zentropy.exe" size="1739776">
+      <assemblyIdentity name="Zentropy" version="1.5.7030.37049" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>88K380GntvBvIxD1mNGxPr8ysG1Qs4JkfUzD691pCYw=</dsig:DigestValue>
+        <dsig:DigestValue>gID2VE26gzhZAhwwDRG0ndLbmhJ+kEKQe7cmc1bXv54=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

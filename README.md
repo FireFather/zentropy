@@ -1,7 +1,7 @@
 # Zentropy
 
-A C# (Windows Forms) chess engine GUI....
-based on, designed, and developed from
+A C# Windows UCI chess engine GUI....
+based on and developed from
 BerldChess
 https://github.com/Bernton/BerldChess
 
@@ -11,11 +11,11 @@ https://github.com/ProgramFOX/Chess.NET
 ChessEngineInterface
 "Library for communication with chess engines"
 
-Zentropy includes
+Zentropy improvements and feature additions:
 an updated and expanded user interface
-new pieces sets
+new chess piece sets
 chess engine matches
-engine logos (100 x 50)
-draw and resign adjudication
-FEN opening book (including creation of book from PGN file)
+engine logo display (100 x 50)
+configurable draw and resign adjudication
+FEN opening book usage and creation (from PGN file)
 games saved to PGN file
