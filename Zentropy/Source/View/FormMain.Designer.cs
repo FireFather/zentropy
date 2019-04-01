@@ -670,7 +670,6 @@
             this._labelRound.Name = "_labelRound";
             this._labelRound.Size = new System.Drawing.Size(118, 25);
             this._labelRound.TabIndex = 3;
-            this._labelRound.Text = "Round";
             this._labelRound.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // _labelBook
@@ -681,7 +680,6 @@
             this._labelBook.Name = "_labelBook";
             this._labelBook.Size = new System.Drawing.Size(118, 25);
             this._labelBook.TabIndex = 4;
-            this._labelBook.Text = "Book";
             this._labelBook.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // _labelOrder
@@ -692,7 +690,6 @@
             this._labelOrder.Name = "_labelOrder";
             this._labelOrder.Size = new System.Drawing.Size(118, 25);
             this._labelOrder.TabIndex = 5;
-            this._labelOrder.Text = "Order";
             this._labelOrder.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // _labelPositionText
@@ -715,7 +712,6 @@
             this._labelPosition.Name = "_labelPosition";
             this._labelPosition.Size = new System.Drawing.Size(118, 25);
             this._labelPosition.TabIndex = 7;
-            this._labelPosition.Text = "Position";
             this._labelPosition.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // _labelBookText
