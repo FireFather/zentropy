@@ -1,2 +1,2 @@
 # Zentropy
-Chess engine GUI
+chess engine GUI
