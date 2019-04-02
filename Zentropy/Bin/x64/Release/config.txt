@@ -29,7 +29,7 @@
   <Opacity>200</Opacity>
   <UseBook>true</UseBook>
   <Random>false</Random>
-  <LastBookLine>2</LastBookLine>
+  <LastBookLine>3</LastBookLine>
   <CurrBookLine>1</CurrBookLine>
   <TotalBookLines>10000</TotalBookLines>
   <DrawAdjudicationScore>10</DrawAdjudicationScore>
