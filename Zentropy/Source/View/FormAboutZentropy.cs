@@ -42,5 +42,15 @@ namespace Zentropy.View
         {
         }
         #endregion
+
+        private void _labelDescription1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormAboutZentropy_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

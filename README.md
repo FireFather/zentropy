@@ -3,9 +3,9 @@
 ## A UCI chess engine GUI for Windows...
 based on and developed from:
 
-* BerldChess https://github.com/Bernton/BerldChess
-* ChessEngineInterface "Library for communication with chess engines" assembly
-* Chess.NET https://github.com/ProgramFOX/Chess.NET assembly
+* BerldChess: https://github.com/Bernton/BerldChess
+* ChessDotNet: https://github.com/ProgramFOX/Chess.NET
+* and the ChessEngineInterface .NET .dll assembly
 
 ## Features:
 
