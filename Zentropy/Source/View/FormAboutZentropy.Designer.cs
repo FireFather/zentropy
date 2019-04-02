@@ -24,14 +24,14 @@
             this._buttonOk = new System.Windows.Forms.Button();
             this._pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this._labelVersion = new System.Windows.Forms.Label();
-            this._labelVersionNumber = new System.Windows.Forms.Label();
-            this._labelDescription1 = new System.Windows.Forms.Label();
+            this._labelChessEngineInterface = new System.Windows.Forms.Label();
+            this._labelZentropy = new System.Windows.Forms.Label();
             this._labelBerldChess = new System.Windows.Forms.Label();
             this._labelChessDotNet = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this._labelBy = new System.Windows.Forms.Label();
+            this._groupBoxBasedOn = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this._pictureBoxLogo)).BeginInit();
-            this.groupBox1.SuspendLayout();
+            this._groupBoxBasedOn.SuspendLayout();
             this.SuspendLayout();
             // 
             // _buttonOk
@@ -65,26 +65,26 @@
             this._labelVersion.TabIndex = 7;
             this._labelVersion.Text = "Version 4-2-2019";
             // 
-            // _labelVersionNumber
+            // _labelChessEngineInterface
             // 
-            this._labelVersionNumber.AutoSize = true;
-            this._labelVersionNumber.Font = new System.Drawing.Font("Verdana", 9F);
-            this._labelVersionNumber.Location = new System.Drawing.Point(6, 69);
-            this._labelVersionNumber.Name = "_labelVersionNumber";
-            this._labelVersionNumber.Size = new System.Drawing.Size(316, 14);
-            this._labelVersionNumber.TabIndex = 8;
-            this._labelVersionNumber.Text = "and the ChessEngineInterface .NET .dll assembly";
+            this._labelChessEngineInterface.AutoSize = true;
+            this._labelChessEngineInterface.Font = new System.Drawing.Font("Verdana", 9F);
+            this._labelChessEngineInterface.Location = new System.Drawing.Point(6, 69);
+            this._labelChessEngineInterface.Name = "_labelChessEngineInterface";
+            this._labelChessEngineInterface.Size = new System.Drawing.Size(316, 14);
+            this._labelChessEngineInterface.TabIndex = 8;
+            this._labelChessEngineInterface.Text = "and the ChessEngineInterface .NET .dll assembly";
             // 
-            // _labelDescription1
+            // _labelZentropy
             // 
-            this._labelDescription1.AutoSize = true;
-            this._labelDescription1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this._labelDescription1.Location = new System.Drawing.Point(200, 60);
-            this._labelDescription1.Name = "_labelDescription1";
-            this._labelDescription1.Size = new System.Drawing.Size(231, 18);
-            this._labelDescription1.TabIndex = 9;
-            this._labelDescription1.Text = "Zentropy chess engine GUI";
-            this._labelDescription1.Click += new System.EventHandler(this._labelDescription1_Click);
+            this._labelZentropy.AutoSize = true;
+            this._labelZentropy.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._labelZentropy.Location = new System.Drawing.Point(200, 60);
+            this._labelZentropy.Name = "_labelZentropy";
+            this._labelZentropy.Size = new System.Drawing.Size(231, 18);
+            this._labelZentropy.TabIndex = 9;
+            this._labelZentropy.Text = "Zentropy chess engine GUI";
+            this._labelZentropy.Click += new System.EventHandler(this._labelDescription1_Click);
             // 
             // _labelBerldChess
             // 
@@ -106,35 +106,35 @@
             this._labelChessDotNet.TabIndex = 11;
             this._labelChessDotNet.Text = "ChessDotNet: https://github.com/ProgramFOX/Chess.NET";
             // 
-            // label1
+            // _labelBy
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 9F);
-            this.label1.Location = new System.Drawing.Point(17, 310);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(161, 14);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "by firefather@telenet.be";
+            this._labelBy.AutoSize = true;
+            this._labelBy.Font = new System.Drawing.Font("Verdana", 9F);
+            this._labelBy.Location = new System.Drawing.Point(17, 310);
+            this._labelBy.Name = "_labelBy";
+            this._labelBy.Size = new System.Drawing.Size(161, 14);
+            this._labelBy.TabIndex = 13;
+            this._labelBy.Text = "by firefather@telenet.be";
             // 
-            // groupBox1
+            // _groupBoxBasedOn
             // 
-            this.groupBox1.Controls.Add(this._labelChessDotNet);
-            this.groupBox1.Controls.Add(this._labelVersionNumber);
-            this.groupBox1.Controls.Add(this._labelBerldChess);
-            this.groupBox1.Font = new System.Drawing.Font("Verdana", 9F);
-            this.groupBox1.Location = new System.Drawing.Point(49, 170);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(384, 100);
-            this.groupBox1.TabIndex = 14;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Based on";
+            this._groupBoxBasedOn.Controls.Add(this._labelChessDotNet);
+            this._groupBoxBasedOn.Controls.Add(this._labelChessEngineInterface);
+            this._groupBoxBasedOn.Controls.Add(this._labelBerldChess);
+            this._groupBoxBasedOn.Font = new System.Drawing.Font("Verdana", 9F);
+            this._groupBoxBasedOn.Location = new System.Drawing.Point(49, 170);
+            this._groupBoxBasedOn.Name = "_groupBoxBasedOn";
+            this._groupBoxBasedOn.Size = new System.Drawing.Size(384, 100);
+            this._groupBoxBasedOn.TabIndex = 14;
+            this._groupBoxBasedOn.TabStop = false;
+            this._groupBoxBasedOn.Text = "Based on";
             // 
             // FormAboutZentropy
             // 
             this.ClientSize = new System.Drawing.Size(480, 345);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this._labelDescription1);
+            this.Controls.Add(this._groupBoxBasedOn);
+            this.Controls.Add(this._labelBy);
+            this.Controls.Add(this._labelZentropy);
             this.Controls.Add(this._labelVersion);
             this.Controls.Add(this._pictureBoxLogo);
             this.Controls.Add(this._buttonOk);
@@ -144,8 +144,8 @@
             this.Text = "About Zentropy";
             this.Load += new System.EventHandler(this.FormAboutZentropy_Load);
             ((System.ComponentModel.ISupportInitialize)(this._pictureBoxLogo)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this._groupBoxBasedOn.ResumeLayout(false);
+            this._groupBoxBasedOn.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -156,11 +156,11 @@
         private System.Windows.Forms.Button _buttonOk;
         private System.Windows.Forms.PictureBox _pictureBoxLogo;
         private System.Windows.Forms.Label _labelVersion;
-        private System.Windows.Forms.Label _labelVersionNumber;
-        private System.Windows.Forms.Label _labelDescription1;
+        private System.Windows.Forms.Label _labelChessEngineInterface;
+        private System.Windows.Forms.Label _labelZentropy;
         private System.Windows.Forms.Label _labelBerldChess;
         private System.Windows.Forms.Label _labelChessDotNet;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label _labelBy;
+        private System.Windows.Forms.GroupBox _groupBoxBasedOn;
     }
 }
