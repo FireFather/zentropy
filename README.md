@@ -32,3 +32,4 @@ based on and developed from:
 * multiPV support
 * dark mode
 
+![alt tag](https://raw.githubusercontent.com/FireFather/Zentropy/master/capture.png)
