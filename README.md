@@ -25,6 +25,7 @@ based on and developed from:
 * full support for TT and Unicode chess fonts
 * fully customizable user interface, adjustable splitters, panel hide/unhide, etc.
 * live game move-by-move save to PGN file (suitable for web broadcast)
+* options (including engine config) can be changed 'on-the-fly' (during a game)
 * multiPV support
 * opening book creation and usage (import PGN to FEN)
 * optional board border, square outlines, and coordinate display
