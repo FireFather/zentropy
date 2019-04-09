@@ -27,6 +27,7 @@ based on and developed from:
 * live game move-by-move save to PGN file (suitable for web broadcast)
 * options (including engine config) can be changed 'on-the-fly' (during a game)
 * multiPV support
+* multiPV analysis move arrow colors are calculated/proportional to move strength
 * opening book creation and usage (import PGN to FEN)
 * optional board border, square outlines, and coordinate display
 * optional extended move information for UI and PGN (engine eval + depth)
