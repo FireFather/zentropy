@@ -76,7 +76,7 @@ namespace Zentropy.View
         private readonly List<MoveArrow> _engineEvalArrows = new List<MoveArrow>();
         private MoveArrow _lastMoveArrow = null;
         private bool _gameOver = false;
-        private string pgnMoveString = null;
+        private string currFenString = null;
         private int _drawMoves = 0;
         private int _resignMoves = 0;
         private bool _resignAdjudicationWhite = false;
@@ -108,6 +108,7 @@ namespace Zentropy.View
             {
                 ChessGame gameFromFen = null;
                 string fenString = GetOpeningFen();
+                currFenString = fenString;
                 if (fenString != null)
                 {
                     try
@@ -348,18 +349,21 @@ namespace Zentropy.View
 
             if (_gameOver == true)
             {
-            Pause(SerializedInfo.Instance.Pause * 1000);
+                Pause(SerializedInfo.Instance.Pause * 1000);
 
                 if (SerializedInfo.Instance.UseBook == true)
                 {
                     ChessGame gameFromFen = null;
+
+                    string pgnSetupString = "SetUp " + "\"" + "1" + "\"";
+                    string pgnFenString = "FEN " + "\"" + currFenString + "\"";
+                    WriteInfoToPGN("setup", pgnSetupString);
+                    WriteInfoToPGN("fen", pgnFenString);
+
                     string fenString = GetOpeningFen();
+                    currFenString = fenString;
                     if (fenString != null)
                     {
-	                    string pgnSetupString = "SetUp " + "\"" + "1" + "\"";
-	                    string pgnFenString = "FEN " + "\"" + fenString + "\"";
-	                    WriteInfoToPGN("setup", pgnSetupString);
-	                    WriteInfoToPGN("fen", pgnFenString);
                         try
                         {
                             gameFromFen = new ChessGame(fenString);
@@ -926,6 +930,7 @@ namespace Zentropy.View
             {
                 ChessGame gameFromFen = null;
                 string fenString = GetOpeningFen();
+                currFenString = fenString;
                 if (fenString != null)
                 {
                     try
@@ -1092,6 +1097,7 @@ namespace Zentropy.View
                 ChessGame gameFromFen = null;
                 _lastBookLine = 0;
                 string fenString = GetOpeningFen();
+                currFenString = fenString;
                 if (fenString != null)
                 {
                     try
@@ -2064,7 +2070,6 @@ namespace Zentropy.View
             int cellIndex = _vm.NavigationIndex - 1;
             int rowIndex = cellIndex / 2;
             int columnIndex = cellIndex % 2;
-            pgnMoveString = "";
 			
             if (cellIndex >= 0 && _dataGridViewMoves.Rows.Count > rowIndex && _dataGridViewMoves.Rows[rowIndex].Cells.Count > columnIndex)
             {
@@ -2090,14 +2095,10 @@ namespace Zentropy.View
                     if (_menuItemShowExtendedMoveInfo.Checked)
                     {
                         _dataGridViewMoves.Rows[rowIndex].Cells[columnIndex].Value = $"{currentValue.Substring(0, currentValue.IndexOf('{') + 1)}{formatEvaluation} D{depth}}}";
-                        pgnMoveString = $"{currentValue.Substring(0, currentValue.IndexOf('{') + 1)}{formatEvaluation} D{depth}}}";
-                        pgnMoveString += " ";
                     }
                     else
                     {
                         _dataGridViewMoves.Rows[rowIndex].Cells[columnIndex].Value = $"{currentValue}";
-                        pgnMoveString = $"{currentValue}";
-                        pgnMoveString += " ";
                     }
                 }
             }
@@ -2519,7 +2520,7 @@ namespace Zentropy.View
                     {
                         if (plyCount / 2 == 1)
                             WritePGNHeader();
-                        WriteMoveToPGN(pgnMoveString);
+                        WriteMoveToPGN((plyCount / 2) + ". " + formattedMove + " ");
                     }
                 }
 
@@ -2541,7 +2542,7 @@ namespace Zentropy.View
                     }
                     if (SerializedInfo.Instance.SaveGames)
                     {
-                        WriteMoveToPGN(pgnMoveString);
+                        WriteMoveToPGN(formattedMove + " ");
                     }
                 }
             }

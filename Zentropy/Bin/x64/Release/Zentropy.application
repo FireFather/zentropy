@@ -7,14 +7,14 @@
     <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Zentropy.exe.manifest" size="12300">
+    <dependentAssembly dependencyType="install" codebase="Zentropy.exe.manifest" size="12302">
       <assemblyIdentity name="Zentropy.exe" version="1.5.84.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="amd64" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>FX7xycwxUcvbrO0Gc9StPkRgdQfcsM9nB0eOuFlM13k=</dsig:DigestValue>
+        <dsig:DigestValue>Sc8u9pylIwLFpgRhS4uZqxTp9V9UFnuH+oflXMAB0Gw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -4,7 +4,7 @@
   <description asmv2:iconFile="Resources\Icons\zentropy.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Zentropy" version="1.5.7031.6193" language="neutral" processorArchitecture="amd64" />
+    <assemblyIdentity name="Zentropy" version="1.5.7044.24665" language="neutral" processorArchitecture="amd64" />
     <commandLine file="Zentropy.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>yffdM7tjZAbTOlUjUGpNcHAWn0DE48EQVer94/FGB8M=</dsig:DigestValue>
+        <dsig:DigestValue>/nU5+aFdd3BvF6EafWMWsaClhJOBEKIlLXWZImj0loc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,19 +62,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>TsPSSxTdbVSBnRwt14NQunAQewlXmggQetnlaD/FPNY=</dsig:DigestValue>
+        <dsig:DigestValue>rhjiuhdPAhW6ox9fv0TuZA6fL4IS51OWbe0lUsXIoh8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Zentropy.exe" size="1740800">
-      <assemblyIdentity name="Zentropy" version="1.5.7031.6193" language="neutral" processorArchitecture="amd64" />
+      <assemblyIdentity name="Zentropy" version="1.5.7044.24665" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>LHJzoafCI1xJJpMyirhCIy9CBm9SuwxfzvDWZQrnlIo=</dsig:DigestValue>
+        <dsig:DigestValue>AAmY+/+u5Z9iKAmuc0WbEgYKHb6EoYmtjV/8r/6yNG8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

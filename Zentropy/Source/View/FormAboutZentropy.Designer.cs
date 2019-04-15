@@ -61,9 +61,9 @@
             this._labelVersion.Font = new System.Drawing.Font("Verdana", 10F);
             this._labelVersion.Location = new System.Drawing.Point(249, 88);
             this._labelVersion.Name = "_labelVersion";
-            this._labelVersion.Size = new System.Drawing.Size(133, 17);
+            this._labelVersion.Size = new System.Drawing.Size(142, 17);
             this._labelVersion.TabIndex = 7;
-            this._labelVersion.Text = "Version 4-2-2019";
+            this._labelVersion.Text = "Version 4-15-2019";
             // 
             // _labelChessEngineInterface
             // 

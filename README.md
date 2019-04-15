@@ -30,7 +30,7 @@ based on and developed from:
 * move arrow colors are calculated/graded from red to green according to eval score
 * opening book creation and usage (import PGN to FEN)
 * optional board border, square outlines, and coordinate display
-* optional extended move information for UI and PGN (engine eval + depth)
+* optional UI extended move information (engine eval + depth)
 * optional legal move display
 * real-time engine LOS (likelihood of superiority) calculation
 
