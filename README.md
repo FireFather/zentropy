@@ -34,4 +34,5 @@ based on and developed from:
 * optional legal move display
 * real-time engine LOS (likelihood of superiority) calculation
 
+![alt tag](https://raw.githubusercontent.com/FireFather/Zentropy/master/Capture1.PNG)
 ![alt tag](https://raw.githubusercontent.com/FireFather/Zentropy/master/capture.png)
