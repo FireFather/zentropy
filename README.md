@@ -35,4 +35,5 @@ based on and developed from:
 * real-time engine LOS (likelihood of superiority) calculation
 
 ![alt tag](https://raw.githubusercontent.com/FireFather/Zentropy/master/Capture1.PNG)
+![alt tag](https://raw.githubusercontent.com/FireFather/Zentropy/master/Capture2.PNG)
 ![alt tag](https://raw.githubusercontent.com/FireFather/Zentropy/master/capture.png)
